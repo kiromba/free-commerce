@@ -1,8 +1,7 @@
 # Configuração de ambiente de desenvolvimento usando Docker
 
 ## Configuração inicial
-The following commands should just be run for the initial setup only. Rebuilding the docker images is only necessary when upgrading, if there are changes to the Dockerfile, or if gems have been added or updated.
-Os comandos a seguir devem somente ser usados para a configuração inicial.
+Os comandos a seguir devem somente ser usados para a configuração inicial. Quando houver alterações no Dockerfile ou no Gemfile, rode o docker-compose build.
 1. Instale [Docker Community Edition](https://docs.docker.com/install/) caso
    ainda não tenha.
 3. Clone o repositório: `git clone
